@@ -12,14 +12,4 @@ PST, OST, MBOX, EML, and OLM internals. Mailbox migration and archival workflows
 
 [eml-header-analyzer](https://github.com/leenadesq/eml-header-analyzer) is a small Python CLI that parses an EML message and prints the Received chain, authentication results (SPF/DKIM/DMARC), and key envelope fields. MIT-licensed.
 
-More tool repositories are planned, including an MBOX splitter and a vCard deduplicator.
-
-## Writing
-
-I also publish long-form articles on the same topics on LinkedIn. The repositories here are the underlying technical references for that writing.
-
-## Contact
-
-LinkedIn: [linkedin.com/in/leena-taylor](https://in.linkedin.com/in/leena-taylor)
-
-Email: leenadesq@gmail.com
+[mbox-tools](https://github.com/leenadesq/mbox-tools) is a Python CLI for mbox archives: quick stats, deduplication by Message-ID, and date-range splitting. Read-only on the source. MIT-licensed.
